@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Rep4 test</title> 
+</head>
+
+<body>
+
+  <div class="top-bar">
+    <h1 class="title">Rep4 FinLit</h1>
+    <h1 class="title">Modules</h1>
+    <h1 class="title">Community</h1>
+    <h1 class="title">Quiz</h1>
+    <h1 class="title">About</h1>
+    <h1 class="title">Contact</h1>
+  </div>
+
+  <div class="side-bar">
+    <div class="side-bar-close-btn">X</div>
+    <br>
+    <img src="rep4finlitlogo.png" alt="logo" style="width: 100%; margin-top: 2.5vw; margin-bottom: 3vh;">
+    
+    <button class="budget-btn">Build a Budget</button>
+    <button class="purchase-btn">Plan for a Purchase</button>
+    <button class="loan-btn">Calculate a Loan</button>
+    <button class="credit-btn">Check my Credit Score</button>
+    <button class="fun-btn">Fun FinLit Fact</button>
+  </div>
+  <div class="side-bar-open">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <main>
+
+    <img class="mascot" src="future_panda_profile.png">
+    <br>
+
+    <label class="askQuestion" style="font-size:x-large;">Ask a question</label>
+    <br>
+    <div class="chats-container"></div>
+    <textarea class="myInput" name="inputs" placeholder="Ask here..."></textarea>
+    <div class="down-btn">↓</div>
+
+    <div class="bot">
+      <div class="bot-container">
+        <div class="bot-inner-container">
+          <div class="bot-title">Rep4FinLit Budget Bot</div>
+          <div class="bot-chat"></div>
+          <textarea class="bot-input" placeholder="Ask me anything!"></textarea>
+          <div class="bot-down-btn">↓</div>
+        </div>
+      </div>
+      
+      <img class="bot-btn" src="faces/f1.png">
+    </div>
+
+  </main>
+  <script type="module" src="tempscript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script> 
+
+  </body>
+</html>
